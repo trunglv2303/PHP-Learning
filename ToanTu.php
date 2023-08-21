@@ -49,12 +49,22 @@ echo $age;
   $b='10';
   $check=$a==$b;
   var_dump($check); //Chỉ so sánh giá trị
-
   echo '<br/>';
+
   /*Toán tử === */;
   $a=10;
   $b='10';
-  $check=$a==$b;
+  $check=$a===$b;
   var_dump($check); //So sánh giá trị với kiểu dữ liệu
+  echo '<br/>';
 
+  
+  /*Toán tử khác (!=,!==) */;
+  $a=10;
+  $b=20;
+  $check= $a!=$b;
+  var_dump($check);
+
+//Toán tử quan hệ
+//Toán tử và(&&)
 
